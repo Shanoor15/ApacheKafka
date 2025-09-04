@@ -1,0 +1,39 @@
+movie:
+   actor:
+       name: vijay
+       addrs: hyd
+       category: hero
+       fee: 20000
+       industry: tollywood
+       #array type
+       fav-color: [red-,green-,blue-] #inline 
+       favColor:
+           - red
+           - green
+           - blue
+       #collection type
+       friends:
+          - Rashidh
+          - kareem
+          - yakub
+       phoneNumbers:
+          - 9999999
+          - 8888888
+          - 7777778
+       idDetails:
+          adhar: abg3546677
+          pancord: hgdhd63746
+          voter: 3673hdh837
+       #HAS-A properties
+       Customer:
+          cno: 1001
+          cname: cust-harish
+          addrs: hyd
+          sal: 20000
+#configuring custom file
+spring:
+   config:
+      import: custom.yml
+##disable the bannerof spring boot
+   #main:
+    # banner-mode: off
